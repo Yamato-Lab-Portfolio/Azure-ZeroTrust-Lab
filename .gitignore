@@ -1,0 +1,25 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Secrets / credentials
+.env
+*.pem
+*.key
+*.pfx
+*.p12
+*.crt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
